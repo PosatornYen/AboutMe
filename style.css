@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    max-width: 70vw;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: black;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+.nav-con a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.content h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: black;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.about h1 {
+    font-size: 60px;
+    color: black;
+    margin-top: 100px;
+    margin-left: 1000px;
+}
+
+.about p {
+    font-size: 32px;
+    color: black;
+    margin-top: 50px;
+    margin-left: 1050px;
+}
+
+.education h1 {
+    font-size: 60px;
+    margin-left: 200px;
+}
+
+.education p {
+    font-size: 24px;
+    margin-left: 200px;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-left: 200px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnEdu {
+    margin-top: 20px;
+    margin-left: 350px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+
+.line {
+    width: 700px;
+    height: 5px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.fa-graduation-cap {
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.fa-briefcase {
+    margin-left: 200px;
+    font-size: 50px;
+}
+
+.imgFloatLeft {
+    float: left;
+    margin-left: 200px;
+    border-radius: 100px;
+    width: 500px;
+    height: auto;
+}
+
+.imgFloatRight {
+    float: right;
+    margin-right: 200px;
+    border-radius: 100px;
+    width: 500px;
+    height: auto;
+}
+
+.imgFloatEdu {
+    float: right;
+    margin-top: 100px;
+    margin-right: 200px;
+    border-radius: 100px;
+    width: 500px;
+    height: auto;
+}
